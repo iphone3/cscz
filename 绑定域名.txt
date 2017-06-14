@@ -1,0 +1,11 @@
+github主页 绑定域名
+
+1、ping你的http://github.io域名，得到一个IP；
+	$ ping iphone3.github.io	// iphone3用户名
+
+
+2、修改你的域名解析记录，添加一个A记录，用得到的IP；
+	例如: 腾讯云中，域名解析里添加一个解析记录
+
+	
+3、登录 http://github.com > 进入项目(自己项目) > Settings > Custom domain > 输入你的域名 > Save
